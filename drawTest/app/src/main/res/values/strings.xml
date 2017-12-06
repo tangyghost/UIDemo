@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="input_invest_money"><font size="14">请输入投资金额</font></string>
+</resources>

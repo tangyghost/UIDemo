@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.sdj.ty.myapplication.MainActivity">
+
+    <com.sdj.ty.myapplication.view.CubLinesView
+        android:id="@+id/cubscrollview"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+    <Button
+        android:id="@+id/button_usb"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_below="@id/cubscrollview"
+        android:layout_marginTop="15dp"
+        android:text="usb页面" />
+
+    <Button
+        android:id="@+id/button_usb2"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_below="@id/button_usb"
+        android:layout_marginTop="15dp"
+        android:text="usb页面" />
+
+    <Button
+        android:id="@+id/button_usb3"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_below="@id/button_usb2"
+        android:layout_marginTop="15dp"
+        android:text="usb页面" />
+
+    <com.sdj.ty.myapplication.view.MyView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/button_usb3" />
+</RelativeLayout>
